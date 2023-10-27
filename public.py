@@ -5,6 +5,7 @@ import queue
 from fastapi import FastAPI
 from pydantic import BaseModel
 
+PUBLIC_API_KEY = "1234"
 PRIVATE_API_KEY = "1234"
 PRIVATE_API_URL = "http://private:8000"
 APP_SECRET_KEY = "1234"

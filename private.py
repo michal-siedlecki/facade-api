@@ -14,4 +14,4 @@ class Payload(BaseModel):
 async def root(payload: Payload):
     """Fake generate response"""
     time.sleep(3)
-    return {f"Here is response for your request": {payload.value}}
+    return {f"Here is response for your request": payload.value}
