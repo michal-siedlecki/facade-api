@@ -98,3 +98,4 @@ async def create_token(
         raise HTTPException(status_code=403, detail="Forbidden")
     collection.insert_one(dict(token))
     return {"message": "created"}
+
